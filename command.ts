@@ -28,7 +28,7 @@ module.exports = function(bot,ctx)
         word = word + msg.toString().split(" ")[i].toLowerCase() + "%20";
 
       console.log(word)
-      dictionary.findWord(word,msg,"syn")
+      dictionary.findWord(word,ctx,"syn")
 
       
       word = "";
