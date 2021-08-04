@@ -27,7 +27,10 @@ npm install
 ## Example of running program
 
 ```
-npm start
+For Linux<br>
+npm run start-linux<br>
+For Windows<br>
+npm run start-windows<br>
 ```
 
 ## Author
